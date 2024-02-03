@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-size: 25px;
+}
+input{
+    padding: 5px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+.add{
+    height: 36px;
+    width: 80px;
+    color: white;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+}
+.js-todo-List{
+    display: grid;
+    grid-template-columns: 320px 150px 100px;
+}
+.delete{
+    height: 36px;
+    width: 80px;
+    color: white;
+    background-color: maroon;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.name{
+    display: flex;
+    align-items: center;
+}
+.date{
+    display: flex;
+    align-items: center;
+}
